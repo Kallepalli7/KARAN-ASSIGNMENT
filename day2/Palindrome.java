@@ -11,8 +11,9 @@ public class Palindrome {
     rem=num%10;
     sum=(sum*10)+rem;
     }
-   if(sum==temp)
+   if(sum==temp){
 	System.out.println(temp+" is a palindrome number ");
+   }
               else
 	System.out.println(temp+" is not a palindrome number ");
               
