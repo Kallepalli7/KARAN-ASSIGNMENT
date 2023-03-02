@@ -4,7 +4,7 @@ package week1.day2;
 public class Palindrome {
 	public static void main(String arg[])	
 {
-    int num=123421,temp,sum,rem;
+    int num=12321,temp,sum,rem;
     temp=num;
     for(sum=0;num>0;num=num/10)
     {
